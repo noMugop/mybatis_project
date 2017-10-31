@@ -1,4 +1,4 @@
-1. Скачиваем проект - 
+1. Скачиваем проект - https://github.com/noMugop/mybatis_project
 -Проект создан в Eclipse IDE for Java EE Developers) 
 - https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2 - весит 250mb
 
