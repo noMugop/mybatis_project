@@ -1,5 +1,6 @@
 1. Скачиваем проект - 
--Проект создан в Eclipse IDE for Java EE Developers) - https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2 - весит 250mb
+-Проект создан в Eclipse IDE for Java EE Developers) 
+- https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2 - весит 250mb
 
 2. Если MySQL уже установлен, то пропускем данный пункт
 -Если MySQL не установлен, скачиваем установщик здесь - https://dev.mysql.com/downloads/installer/ - весит 330mb
