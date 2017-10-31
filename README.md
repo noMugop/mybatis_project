@@ -1,8 +1,8 @@
-1. Скачиваем проект - 
--Проект создан в Eclipse IDE for Java EE Developers) - https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2 - весит 250mb
+1. Скачиваем проект - https://github.com/noMugop/mybatis_project
+-Проект создан в Eclipse IDE for Java EE Developers) - https://www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/keplersr2
 
 2. Если MySQL уже установлен, то пропускем данный пункт
--Если MySQL не установлен, скачиваем установщик здесь - https://dev.mysql.com/downloads/installer/ - весит 330mb
+-Если MySQL не установлен, скачиваем установщик здесь - https://dev.mysql.com/downloads/installer/
 -Не забываем при установке указать Username = root, Password = root
 
 3. Если ваши Username и Password = root, то пропускаем данный пункт:
@@ -20,7 +20,7 @@
 -Теперь можно нажать на желтую молнию "Execute the selected portion of the script or everything, if there is no selection"
 -Поздравляю база + таблица добавленны в MySQL
 
-5. Если нет сервера Tomcat, скачиваем его здесь - https://tomcat.apache.org/download-90.cgi -> Core -> 64-bit Windows zip (pgp, md5, sha1) - весит 10mb
+5. Если нет сервера Tomcat, скачиваем его здесь - https://tomcat.apache.org/download-90.cgi -> Core -> 64-bit Windows zip (pgp, md5, sha1)
 
 6. Запускам Eclipse -> File -> Open Project from File System -> Выбираем Directory -> Указываем путь к корневому файлу проекта -> Жмем Ок -> Finish
 -В открывшемся проекте находим index.jsp -> users-db-web \ src \ main \ webapp \ index.jsp
