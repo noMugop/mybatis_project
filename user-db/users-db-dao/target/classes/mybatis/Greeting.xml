@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Greeting">
+
+	<resultMap id="result" type="greeting.Greeting">
+		<result property="id" column="ID" />
+		<result property="greeting" column="greeting" />
+	</resultMap>
+
+	<select id="getById" parameterType="int" resultMap="result">
+		SELECT * FROM GREETING WHERE ID = #{id};
+	</select>
+
+	<update id="update" parameterType="greeting.Greeting">
+		UPDATE GREETING SET GREETING = #{greeting}
+		WHERE ID = #{id};
+	</update>
+
+</mapper>
+ 
